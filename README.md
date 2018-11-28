@@ -21,7 +21,7 @@ Authors
 -------
 
 - Bradley S. Meyer <mbradle@clemson.edu>
-- Jordan L. Eagle <jeagle@clemson.edu>
+- Jordan L. Eagle <jeagle@clemson.edu></p>
 **Not an author** _Contributing Student_
 
 <p>Information of aws_project:</p>
