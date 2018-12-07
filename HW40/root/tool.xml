@@ -3,37 +3,37 @@
     <tool>
         <title>Integrating and Graphing Calculator</title>
         <about>Press Simulate to view results.</about>
-        <command>python @tool/compute_root.py @driver</command>
+        <command>python @tool/king_model.py @driver</command>
     </tool>
     <input>
-        <string id="formula">
+        <string id="king(x,y)">
             <about>
-                <label>f(x)</label>
-                <hints>Example: 2*x + 1</hints>
+                <label>king</label>
+                <hints></hints>
             </about>
             <size>30x5</size>
-	    <default>2*x+1</default>
+	    <default></default>
         </string>
-        <number id="min">
+        <number id="x">
             <about>
 		<label>From x</label>
 		<description>This is the starting point.</description>
 	    </about>
-            <default>-1</default>
+            <default>0</default>
         </number>
-        <number id="max">
+        <number id="x">
 	    <about>
 	  	<label>To x</label>
 		<description>This is the ending point</description>
 	    </about>
-            <default>10</default>
+            <default>100</default>
         </number>
-        <number id="a">
+        <number id="y_init">
             <about>
-	        <label>a</label>
+	        <label>initial y</label>
 		<description>The value of a at the minimum X</description>
 	    </about>
-            <default>10</default>
+            <default>0</default>
         </number>
 	
     </input>
