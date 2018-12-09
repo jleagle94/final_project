@@ -32,8 +32,7 @@ Original work: *http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?19
 <b>Objective:</b> Describe self-gravitating stellar dynamical systems. Generally well-describes globular clusters and elliptical galaxies.</p>
 <b>Assumptions:</b> Spherical symmetry. Constant radius. At r=R of sphere, total energy of a star is zero, E=0 - potential for star to escape. Treat stellar distribution as an isothermal gas at a given temperature.</p>
 <b>Goals:</b> Surface brightness. Velocity distributions as stars interact.</p>
-<b>Input:</b> mass density as a function of central gravitational potential.</p>
-Mass density, &rho; from King's paper:</p>
+<b>Input:</b> mass density as a function of central gravitational potential. Mass density, &rho; from King's paper:</p>
 **&rho;(&psi;)=exp(w)*scipy.special.erf(sqrt(w))-sqrt((4*w)/(pi))*(1+(2*w)/3)** #In code, &psi;=w.</p>
 Plug into the Poisson equation for the central potential:</p>
 **d/dr(r^2*d&psi;/dr)=-4*pi*G*r^2*&rho;(&psi;)**</p>
