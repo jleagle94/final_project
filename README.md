@@ -1,3 +1,10 @@
+Installing Rappture</p>
+------------
+You will need a computer with [rappture](https://nanohub.org/infrastructure/rappture/) installed.  Type the following:</p>
+* git clone http://github.com/mbradle/astr8300_rappture.git</p>
+* cd astr8300_rappture</p>
+* rappture</p>
+
 Overview
 ========
 
@@ -20,13 +27,6 @@ or</p>
 <i>
   python3 plot_lambda.py 2 v_max</p>
 </i>
-
-Installing Rappture</p>
-------------
-You will need a computer with [rappture](https://nanohub.org/infrastructure/rappture/) installed.  Type the following:</p>
-* git clone http://github.com/mbradle/astr8300_rappture.git</p>
-* cd astr8300_rappture</p>
-* rappture</p>
 
 Info: King Models</p>
 ----
