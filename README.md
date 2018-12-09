@@ -1,7 +1,8 @@
 Overview
 ========
 
-To run simple simulation of 1966 King models git clone https://github.com/jleagle94/final_project/HW40/root/ and type: <i></p>
+To run simple simulation of 1966 King models: </p>
+<i>git clone https://github.com/jleagle94/final_project/HW40/root/ </p>
   Rappture </p>
   </i>
 This will automatically run the tool.xml file linked to king_model.py. A window will appear. Play with parameters. Output will be on the RHS of the window as "Result" with three graphs: 1) Density, &rho;, vs. Radius 2) Maximum velocity ("v_max") vs. Radius 3) Gravitational potential energy per unit mass, &psi;, vs. radius.</p>
