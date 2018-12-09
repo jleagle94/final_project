@@ -3,53 +3,53 @@ Overview
 
 To run simple simulation of 1966 King models go to https://github.com/jleagle94/final_project/HW40/root/
 type <i></p>
-  Rappture 
+  Rappture </p>
   </i>
-This will automatically run the tool.xml file linked to king_model.py. A window will appear. Play with parameters. Output will be on the RHS of the window as "Result" with three graphs: 1) Density vs. Radius 2) Maximum velocity ("v_max") vs. Radius 3) Gravitational potential energy per unit mass (psi) vs. radius.
+This will automatically run the tool.xml file linked to king_model.py. A window will appear. Play with parameters. Output will be on the RHS of the window as "Result" with three graphs: 1) Density vs. Radius 2) Maximum velocity ("v_max") vs. Radius 3) Gravitational potential energy per unit mass (psi) vs. radius.</p>
 
-To run python version: 
+To run python version: </p>
 <i>
-  python3 plot_lambda.py 3 rho
+  python3 plot_lambda.py 3 rho</p>
   </i>
-or
+or</p>
 <i>
-  python3 plot_lambda.py 4 psi
+  python3 plot_lambda.py 4 psi</p>
   </i>
-or
+or</p>
 <i>
-  python3 plot_lambda.py 2 v_max
+  python3 plot_lambda.py 2 v_max</p>
 </i>
 
-Installing Rappture
+Installing Rappture</p>
 ------------
-You will need a computer with [rappture](https://nanohub.org/infrastructure/rappture/) installed.  Type the following:
-* git clone http://github.com/mbradle/astr8300_rappture.git
-* cd astr8300_rappture
-* rappture
+You will need a computer with [rappture](https://nanohub.org/infrastructure/rappture/) installed.  Type the following:</p>
+* git clone http://github.com/mbradle/astr8300_rappture.git</p>
+* cd astr8300_rappture</p>
+* rappture</p>
 
-Info: King Models
+Info: King Models</p>
 ----
-Original work: *http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1966AJ.....71...64K&amp;data_type=PDF_HIGH&amp;whole_paper=YES&amp;type=PRINTER&amp;filetype=.pdf*
-<b>Objective:</b> Describe self-gravitating stellar dynamical systems. Generally well-describes globular clusters and elliptical galaxies.
-<b>Assumptions:</b> Spherical symmetry. Constant radius. At r=R of sphere, total energy of a star is zero, E=0 - potential for star to escape. Treat stellar distribution as an isothermal gas at a given temperature.
-<b>Goals:</b> Surface brightness. Velocity distributions as stars interact.
-<b>Input:</b> mass density as a function of central gravitational potential.
-Mass density, &rho; from King's paper:
-**&rho;(&psi;)=exp(w)*scipy.special.erf(sqrt(w))-sqrt((4*w)/(pi))*(1+(2*w)/3)** #In code, &psi;=w.
-Plug into the Poisson equation for the central potential:
-**d/dr(r^2*d&psi;/dr)=-4*pi*G*r^2*&rho;(&psi;)**
-Use separation of variables to set up two ordinary differential equations to solve simultaneously in rappture for Poisson's equation, finding &psi;:
-**Defined as king(x,y) in code**
-<b>Output:</b> three graphs based on the above calculations. 1) Density (&rho;) vs. Radius, 2) Potential (&psi;) vs. Radius, 3) Maximum Velocity (v_max) vs. Radius.
+Original work: *http://articles.adsabs.harvard.edu/cgi-bin/nph-iarticle_query?1966AJ.....71...64K&amp;data_type=PDF_HIGH&amp;whole_paper=YES&amp;type=PRINTER&amp;filetype=.pdf*</p>
+<b>Objective:</b> Describe self-gravitating stellar dynamical systems. Generally well-describes globular clusters and elliptical galaxies.</p>
+<b>Assumptions:</b> Spherical symmetry. Constant radius. At r=R of sphere, total energy of a star is zero, E=0 - potential for star to escape. Treat stellar distribution as an isothermal gas at a given temperature.</p>
+<b>Goals:</b> Surface brightness. Velocity distributions as stars interact.</p>
+<b>Input:</b> mass density as a function of central gravitational potential.</p>
+Mass density, &rho; from King's paper:</p>
+**&rho;(&psi;)=exp(w)*scipy.special.erf(sqrt(w))-sqrt((4*w)/(pi))*(1+(2*w)/3)** #In code, &psi;=w.</p>
+Plug into the Poisson equation for the central potential:</p>
+**d/dr(r^2*d&psi;/dr)=-4*pi*G*r^2*&rho;(&psi;)**</p>
+Use separation of variables to set up two ordinary differential equations to solve simultaneously in rappture for Poisson's equation, finding &psi;:</p>
+**Defined as king(x,y) in code**</p>
+<b>Output:</b> three graphs based on the above calculations. 1) Density (&rho;) vs. Radius, 2) Potential (&psi;) vs. Radius, 3) Maximum Velocity (v_max) vs. Radius.</p>
 
-To run:
-type:
-*Rappture*
-then hit *Simulate*.
+To run:</p>
+type:</p>
+<i>Rappture</i></p>
+then hit *Simulate*.</p>
 
-Authors
+Authors</p>
 -------
 
-- Bradley S. Meyer <mbradle@clemson.edu>
+- Bradley S. Meyer <mbradle@clemson.edu></p>
 - Jordan L. Eagle <jeagle@clemson.edu></p>
 *ASTR8300 Fall 2018*.
