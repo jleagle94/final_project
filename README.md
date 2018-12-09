@@ -18,6 +18,7 @@ or
 or
 <i>
   python3 plot_lambda.py 2 v_max
+</i>
 
 Installing Rappture
 ------------
